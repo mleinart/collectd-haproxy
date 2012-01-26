@@ -16,15 +16,15 @@ collectd must have the Python plugin installed. See (<http://collectd.org/docume
 Options
 -------
 * ProxyMonitor
-  Proxy to monitor. If unset, defaults to ['server', 'frontend', 'backend'].
-  Specify multiple times to specify additional proxies
+    Proxy to monitor. If unset, defaults to ['server', 'frontend', 'backend'].
+    Specify multiple times to specify additional proxies
 * ProxyIgnore
-  One or more Proxies to ignore
-  Specify multiple times to specify additional proxies
+    One or more Proxies to ignore
+    Specify multiple times to specify additional proxies
 * Socket
-  File location of the HAProxy management socket
+    File location of the HAProxy management socket
 * Verbose
-  Enable verbose logging
+    Enable verbose logging
 
 Example
 -------
