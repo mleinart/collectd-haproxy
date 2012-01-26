@@ -3,6 +3,7 @@
 # Author: Michael Leinartas
 # Description: This is a collectd plugin which runs under the Python plugin to
 # collect metrics from haproxy.
+# Plugin structure and logging func taken from https://github.com/phrawzty/rabbitmq-collectd-plugin
 
 import collectd
 import socket
