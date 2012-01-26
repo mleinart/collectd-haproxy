@@ -1,6 +1,6 @@
 haproxy-collectd-plugin
 =======================
-This is a collectd plugin to pull HAProxy (<haproxy.1wt.eu>) stats from the HAProxy management socket.
+This is a collectd plugin to pull HAProxy (<http://haproxy.1wt.eu>) stats from the HAProxy management socket.
 It is written in Python and as such, runs under the collectd Python plugin.
 
 Requirements
