@@ -6,11 +6,11 @@ It is written in Python and as such, runs under the collectd Python plugin.
 Requirements
 ------------
 
-*HAProxy*
+*HAProxy*  
 To use this plugin, HAProxy must be configured to create a management socket with the `stats socket`
 configuration option. collectd must have read/write access to the socket.
 
-*collectd*
+*collectd*  
 collectd must have the Python plugin installed. See (<http://collectd.org/documentation/manpages/collectd-python.5.shtml>)
 
 Options
