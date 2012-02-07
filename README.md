@@ -1,5 +1,5 @@
-haproxy-collectd-plugin
-=======================
+collectd-haproxy
+================
 This is a collectd plugin to pull HAProxy (<http://haproxy.1wt.eu>) stats from the HAProxy management socket.
 It is written in Python and as such, runs under the collectd Python plugin.
 
@@ -33,7 +33,7 @@ Example
     </LoadPlugin>
 
     <Plugin python>
-        # haproxy.py is at /usr/lib64/haproxy.py
+        # haproxy.py is at /usr/lib64/collectd/haproxy.py
         ModulePath "/usr/lib64/collectd/"
 
         Import "haproxy"
