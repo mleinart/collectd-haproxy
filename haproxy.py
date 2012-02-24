@@ -176,8 +176,9 @@ def logger(t, msg):
         collectd.error('%s: %s' % (NAME, msg))
     elif t == 'warn':
         collectd.warning('%s: %s' % (NAME, msg))
-    elif t == 'verb' and VERBOSE_LOGGING:
-        collectd.info('%s: %s' % (NAME, msg))
+    elif t == 'verb':
+        if VERBOSE_LOGGING:
+            collectd.info('%s: %s' % (NAME, msg))
     else:
         collectd.notice('%s: %s' % (NAME, msg))
 
